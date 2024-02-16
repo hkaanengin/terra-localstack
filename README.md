@@ -1,0 +1,1 @@
+This repository is created to practice creating&testing various AWS Infrastructure.
