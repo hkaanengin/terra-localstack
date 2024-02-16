@@ -1,7 +1,6 @@
 .venv
-.venv/
 .terraform
-.terraform/
 .terraform.lock.hcl
-terraform.tfstate.backup
-terraform.tfstate
+.terraform.tfstate.backup
+.terraform.tfstate
+.dockerignore

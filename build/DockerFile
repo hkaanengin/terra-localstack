@@ -1,0 +1,8 @@
+ARG PYTHON_VERSION=3.10.6
+FROM python:${PYTHON_VERSION}-slim as base
+
+WORKDIR /build
+
+COPY ["main.py", "requirements.txt", "./"]
+
+CMD 'build kekstra:latest'
